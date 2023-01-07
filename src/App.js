@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import MainContainer from './components/MainContainer';
+import Header from "./components/Header";
+import MainContainer from "./components/MainContainer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <MainContainer />
+    <div>
+      <Header />
+      <MainContainer />
+      <Footer />
+    </div>
   );
 }
 
